@@ -8,7 +8,8 @@ int main() {
     int rate;
     int time;
 
-
+//prompting the user to enter values
+    
     printf("Enter principal:" );
     scanf("%d",&principal);
 
@@ -17,7 +18,8 @@ int main() {
 
     printf("Enter time in years: ");
     scanf("%d",&time);
-
+//calling veriable for interest
+    
     int interest;
     interest=(principal*rate*time)/100;
     printf("Your simple interest is:  %d ",interest);
